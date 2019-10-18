@@ -3,7 +3,7 @@
 
 namespace R5T.Jutland
 {
-    public interface IJsonSerializationOperator
+    public interface IJsonFileSerializationOperator
     {
         void Serialize<T>(string jsonFilePath, T value);
         T Deserialize<T>(string jsonFilePath);
